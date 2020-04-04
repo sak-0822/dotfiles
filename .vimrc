@@ -51,3 +51,6 @@ set wrapscan
 
 set hlsearch
 
+set clipboard&
+
+set clipboard^=unnamed
