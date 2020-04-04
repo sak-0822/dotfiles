@@ -8,3 +8,4 @@ do
 done
 
 ln -sf ~/dotfiles/colors ~/.vim/colors
+ln -sf ~/dotfiles/filetype.vim ~/.vim/filetype.vim

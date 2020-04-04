@@ -30,7 +30,7 @@ if _curfile == 'Makefile'
   set noexpandtab
 endif
 
-set cindent
+set smartindent
 
 set virtualedit=onemore
 
@@ -54,3 +54,15 @@ set hlsearch
 set clipboard&
 
 set clipboard^=unnamed
+set nowritebackup
+set nobackup
+set noswapfile
+
+filetype on
+filetype plugin indent on
+
+augroup fileTypeIndent
+  autocmd!
+  autocmd BufNewFile,BufRead *.py setlocal tabstop=4 shiftwidth=4 expandtab
+  autocmd BufNewFile,BufRead *.cpp setlocal tabstop=2 shiftwidth=2 expandtab
+augroup END
