@@ -18,7 +18,7 @@ let g:colors_name = 'gruvbox-material'
 let s:t_Co = exists('&t_Co') && !empty(&t_Co) && &t_Co > 1 ? &t_Co : 2
 let s:italics = (((&t_ZH != '' && &t_ZH != '[7m') || has('gui_running')) && !has('iOS')) || has('nvim')
 
-hi! link markdownH5 Blue
+hi! link markdownH5 Red
 hi! link markdownH6 Yellow
 hi! link markdownCode Green
 hi! link markdownCodeBlock Aqua
