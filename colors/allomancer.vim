@@ -6,6 +6,7 @@
 "Author: Nadim Edde <nadimeg@gmail.com>
 "TODO: Get consistency with colors and tokens
 
+"test"
 hi clear "Reset all highlighting to the defaults.  Removes all highlighting for groups added by the user
 
 if exists("syntax_on")
